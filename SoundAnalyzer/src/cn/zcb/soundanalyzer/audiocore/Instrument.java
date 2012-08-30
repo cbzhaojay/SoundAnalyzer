@@ -41,7 +41,7 @@ public class Instrument
 	 * 
 	 * @param	parent			Parent surface.
 	 */
-	public Instrument(SurfaceView parent) {
+	public Instrument(PaintBoard parent) {
 		parentSurface = parent;
 	}
 
@@ -149,7 +149,7 @@ public class Instrument
 	// ******************************************************************** //
 
 	// The SurfaceView we're attached to.
-	private final SurfaceView parentSurface;
+	private final PaintBoard parentSurface;
 
 }
 

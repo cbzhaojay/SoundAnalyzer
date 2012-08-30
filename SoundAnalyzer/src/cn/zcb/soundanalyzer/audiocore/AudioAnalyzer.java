@@ -6,7 +6,7 @@ import org.hermit.dsp.Window;
 import android.view.SurfaceView;
 
 public class AudioAnalyzer extends Instrument {
-	public AudioAnalyzer(SurfaceView parent) {
+	public AudioAnalyzer(PaintBoard parent) {
 		super(parent);
 		parentSurface = parent;
 
